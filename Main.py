@@ -6,8 +6,6 @@ from time import sleep
 import time
 import logging
 import os
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 
 source_dir = r"C:/Users/stell/Downloads"
 dest_dir_music = r"C:/Users/stell/Downloads/Downloaded Audio"
