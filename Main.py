@@ -7,18 +7,18 @@ import time
 import logging
 import os
 
-source_dir = r"C:/Users/stell/Downloads"
-dest_dir_music = r"C:/Users/stell/Downloads/Downloaded Audio"
-dest_dir_video = r"C:/Users/stell/Downloads/Downloaded Videos"
-dest_dir_image = r"C:/Users/stell/Downloads/Downloaded Images"
-dest_dir_documents = r"C:/Users/stell/Downloads/Documents"
+source_dir = r"C:/Users/"+ os.getlogin()+"/Downloads"
+dest_dir_music = r"C:/Users"+ os.getlogin()+"Downloads/Downloaded Audio"
+dest_dir_video = r"C:/Users"+ os.getlogin()+"Downloads/Downloaded Videos"
+dest_dir_image = r"C:/Users"+ os.getlogin()+"Downloads/Downloaded Images"
+dest_dir_documents = r"C:/Users"+ os.getlogin()+"Downloads/Documents"
 
-dest_dir_compressed = r"C:/Users/stell/Downloads/Zip and RAR files"
-dest_dir_other = r"C:/Users/stell/Downloads/Miscellaneous"
-dest_dir_presets = r"C:/Users/stell/Downloads/Downloaded Presets"
-dest_dir_exe = r"C:/Users/stell/Downloads/Installers and Excecutables"
-dest_dir_osu = r"C:/Users/stell/Downloads/Beatmaps and Skins"
-dest_dir_folders = r"C:/Users/stell/Downloads/Random Folders"
+dest_dir_compressed = r"C:/Users"+ os.getlogin()+"Downloads/Zip and RAR files"
+dest_dir_other = r"C:/Users"+ os.getlogin()+"Downloads/Miscellaneous"
+dest_dir_presets = r"C:/Users"+ os.getlogin()+"Downloads/Downloaded Presets"
+dest_dir_exe = r"C:/Users"+ os.getlogin()+"Downloads/Installers and Excecutables"
+dest_dir_osu = r"C:/Users"+ os.getlogin()+"Downloads/Beatmaps and Skins"
+dest_dir_folders = r"C:/Users"+ os.getlogin()+"Downloads/Random Folders"
 programRuntime = 7
 
 #Initialisation
