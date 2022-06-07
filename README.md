@@ -6,3 +6,6 @@ It is fast and only requires one click to use
 
 Libraries needed:
 - Shutil
+
+To run, just open a cmd in the programs directory and do the command:\
+python Main.py
